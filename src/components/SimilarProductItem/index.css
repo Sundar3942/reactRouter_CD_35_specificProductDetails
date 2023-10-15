@@ -1,0 +1,25 @@
+/* Write your CSS here */
+.similar-product-item {
+  width: 30%;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.similar-product-image {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+.similar-product-price-and-rating-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.similar-product-rating {
+  width: 50px;
+  background-color: aqua;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  margin-right: 10px;
+}

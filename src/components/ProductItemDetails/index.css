@@ -1,0 +1,43 @@
+/* Write your CSS here */
+.product-details-section {
+  display: flex;
+  padding: 40px 70px 40px 70px;
+  justify-content: center;
+}
+.product-image {
+  width: 45%;
+  border-radius: 10px;
+  margin-right: 15px;
+}
+.rating-and-total-reviews-container {
+  display: flex;
+  align-items: center;
+}
+.product-details-rating {
+  width: 50px;
+  padding: 10px;
+  background-color: aqua;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  margin-right: 10px;
+}
+.increase-decrease-btn-container {
+  display: flex;
+  width: 200px;
+  justify-content: space-between;
+  align-items: center;
+}
+.similar-products-section {
+  width: 80%;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+.similar-products-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
